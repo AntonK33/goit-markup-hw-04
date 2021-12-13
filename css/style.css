@@ -56,10 +56,11 @@ img {
 }
 
 .heder-style{
-    border-bottom: 1px solid;
+    border: 1px solid;
     height: 80px;
     display: flex;
     border-color:  #ECECEC;
+    align-items: center;
 }
 
 /*Контейнер*/
@@ -201,8 +202,7 @@ display: flex;
     width: 20px;
     height: 20px;
     background-image: url(../image/envelope\ \(hover\)\ \(1\).svg);
-    background-repeat: no-repeat;
-     background-position: center center; 
+    
    background-size: 16px 12px;
 margin-right: 10px;
 }
@@ -226,9 +226,12 @@ margin-right: 10px;
      background-position: center center; 
    background-size: 10px 16px;
 margin-right: 10px;
+
 }
 
-
+.address-nav-phone:hover{
+    color: var(--accent-color);
+}
 
 .link:hover,
 .link:focus{
@@ -281,17 +284,8 @@ color: #FFFFFF;
 margin-bottom: 40px;
 text-align: center;}
 
-.title-head{  
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-letter-spacing: 0.06em;
-text-transform: uppercase;
-color: #FFFFFF;
-margin-bottom: 40px;
-text-align: center;
 
-}
+
 .title-maid{
    font-weight: 700;
    font-size:36px;
@@ -370,7 +364,7 @@ text-align: center;
 }
 .hero-image-cosmo{
       background-image:
-     url(../image/Vector\ \(7\).svg),url(../image/Vector\ \(8\).svg);
+     url(../image/astronaut\ 1\ \(1\).svg);
      background-repeat: no-repeat;
     background-position: center center;
 
@@ -429,6 +423,8 @@ text-align: center;
 }
 
 
+/* Наша команда*/
+
 .section-team{
     background: #F5F4FA;
 
@@ -478,16 +474,49 @@ text-align: center;
    line-height: 1.18;  
    letter-spacing: 0.03em;
    margin-top: 10px;
+   margin-bottom: 16px;
  
   
+}
+
+.logo-team{
+display: flex;
+justify-content: center;
+}
+
+
+.logo-instsgram{
+width: 44px;
+height: 44px;
+background-color: yellowgreen;
+margin-right: 10px;
+}
+
+.logo-tvitter{
+width: 44px;
+height: 44px;
+background-color: yellowgreen;
+margin-right: 10px;
+}
+
+.logo-facebook{
+width: 44px;
+height: 44px;
+background-color: yellowgreen;
+margin-right: 10px;
+}
+
+.logo-linkedin{
+width: 44px;
+height: 44px;
+background-color: yellowgreen;
+border: violet;
 }
 
 
 
 
-
-
-
+/* Портфолио кнопки*/
 
 .button-type{
     color:var(--title-text-color);
@@ -520,8 +549,108 @@ text-align: center;
   margin-right: 8px;
  }
  
-    
+ 
+ /*Наши партнеры*/
 
+.client-position{
+    display: flex;
+ justify-content: center;
+}
+
+.client-position:hover{
+color: var(--accent-color);
+cursor: pointer;
+}
+
+.client-logo-yaco{
+width: 170px;
+height: 92px;
+border: 1px solid #AFB1B8;
+border-radius: 4px;
+margin-right: 30px;
+}
+.client-logo-yaco{
+    background-image: url(../image/-yaco\ \(1\).svg);
+     background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+
+.client-logo-tagline{
+width: 170px;
+height: 92px;
+border: 1px solid #AFB1B8;
+border-radius: 4px;
+margin-right: 30px;
+}
+
+.client-logo-tagline{
+ background-image: url(../image/tagline\ \(1\).svg);
+     background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+
+.client-logo-company{
+    width: 170px;
+height: 92px;
+border: 1px solid #AFB1B8;
+border-radius: 4px;
+margin-right: 30px;
+}
+
+.client-logo-company{
+  background-image: url(../image/company\ \(1\).svg);
+     background-repeat: no-repeat;
+    background-position: center center;  
+}
+
+
+.client-logo-foster{
+    width: 170px;
+height: 92px;
+border: 1px solid #AFB1B8;
+border-radius: 4px;
+margin-right: 30px;
+}
+
+.client-logo-foster{
+ background-image: url(../image/foster\ \(1\).svg);
+     background-repeat: no-repeat;
+    background-position: center center;  
+}
+
+
+.client-logo-brand{
+    width: 170px;
+height: 92px;
+border: 1px solid #AFB1B8;
+border-radius: 4px;
+margin-right: 30px;
+}
+
+.client-logo-brand{
+ background-image: url(../image/brend\ \(1\).svg);
+     background-repeat: no-repeat;
+    background-position: center center;  
+}
+
+
+
+.client-logo-tag{
+    width: 170px;
+height: 92px;
+border: 1px solid #AFB1B8;
+border-radius: 4px;
+}
+
+.client-logo-tag{
+ background-image: url(../image/tag\ \(1\).svg);
+     background-repeat: no-repeat;
+    background-position: center center;  
+}
 
 .footer{
  background: #2F303A;
